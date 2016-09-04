@@ -1,0 +1,287 @@
+html, body, h1, h2, h3, p, li,ul{
+   margin: 0;
+   padding: 0;
+   font-family: 'Philosopher', sans-serif;
+  
+}
+html,body{
+
+    background-image: url(nwe/Bottom_texture.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.wrap{
+    width: 80%;
+    background-color: transparent;
+    margin: 0 auto;
+    min-height: 800px;
+    padding: 0 1%;
+}
+.header{
+
+    float: left;
+    width: 80%;
+    min-height:  210px;
+    margin: 0 auto;
+    background-image: url(nwe/headerimg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 300%;
+    color: white;
+    padding: 0 10%;
+    
+}
+.header p{
+    padding:  0 15%;
+    
+
+}
+.ff{
+   
+    width: 70%;
+    height:  80%;
+    margin: 1% 0 0 -5%;
+    animation-name: font1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes font1{
+    0%{
+        font-size: 300%;
+        color: white;
+    }
+    25%{
+        font-size: 280%;
+        color: #60F524;
+    }
+    50%{
+        font-size: 250%;
+        color: white;
+        
+    }
+    75%{
+        font-size: 280%;
+        color: #F5EF24;
+    }
+    100%{
+        font-size: 300%;
+        color: white;
+    }
+}
+
+
+
+.nav{
+    float: left;
+    width: 75%;
+    border-top: 2px solid #c800c5;
+    border-bottom: 2px solid #c800c5;
+    margin: 5% auto 0 auto;
+    background-image: url(nwe/content_t.png);
+    background-repeat: no-repeat;
+    background-position:  top center;
+    background-size: 100%;
+    padding-left: 25%;
+    color: white;
+    
+}
+.nav ul li{
+    float: left;
+    list-style-type: none;
+    margin: 0 3%;
+}
+.sidebar{
+    width: 17%;
+    min-height: 540px;
+    background: transparent url(nwe/content_m.png) repeat-y top center;
+    float: left;
+    margin: 0 auto;
+}
+.sidebar ul li{
+    float:left;
+    margin: 15%;
+    list-style-type: none;
+
+}
+.main{
+    float: right;
+    width: 77%;
+    min-height: 500px;
+    background: transparent url(nwe/content_m.png) repeat-y top center;
+    background-size: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.footer{
+    float: right;
+    margin: 5% auto;
+    width: 100%;
+    color: #720083;
+    height: 20px;
+    background-image: url(nwe/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    
+}
+.clearfix{
+    clear: both;
+
+}
+
+.nav ul li a:hover{
+    color: black;
+
+}
+
+.nav ul li a:link{
+    font-style: italic;
+    color: white;
+    
+}
+.two{
+    float: left;
+    margin: 2%;
+}
+ p{
+    padding: 2% 1%;
+}
+h1{
+    text-align: center;
+    
+}
+
+.fancybox a:hover{
+    @-webkit-filter: brightness(200%);
+    
+        
+}
+.f1{
+    width: 17%;
+    cursor: pointer;
+    margin: 1%;
+}
+
+.text-block {
+  width: 250px;
+  margin: 50px;
+}
+
+#go-top {
+  position: fixed; 
+  font-family: sans-serif;
+  line-height: 30px;
+  text-align: center;
+  color: brown;
+  bottom: 25px; 
+  right: 10px; 
+  cursor:pointer; 
+  display:none;
+  width: 70px;
+  height: 30px;
+  background: #c0c0c0;
+  border-radius: 5px;
+}
+
+#go-top:hover {
+  background: lightblue;
+}
+.s11{
+    width: 20px;
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 8px solid #fff;
+    box-shadow: 0 0 10px #000;
+    margin: 0 auto;
+}
+
+td {
+    padding: 15px 10px; 
+    border: 1px solid #666;
+    
+}
+
+.top {
+    background: #c800c5;  
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.a111{
+    font-weight: bold;
+}
+
+
+.b{
+    font-style: italic;
+}
+@media screen and (max-width:1300px){
+   
+    .header{
+        font-size: 200%;
+        min-height: 100px;
+        
+    }
+    .nav{
+        font-size: 75%;
+    }
+    
+}
+@media screen and (max-width:900px){
+    .wrap{
+        width: 100%
+    }
+   
+    .header{
+        font-size: 150%;
+
+    }
+   
+    
+}
+@media screen and (max-width:800px){
+    
+    .header{
+        font-size: 150%;
+        
+    }
+    .nav{
+        margin: 0 1%;
+    }
+     
+}
+
+@media screen and (max-width:700px){
+     .header{
+        font-size: 100%;
+
+    }
+    .sidebar{
+    width: 0%;
+    min-height: 0;
+
+}
+.sidebar ul li{
+  width: 0;
+    margin: 0;
+    }
+    .main{
+        width: 100%;
+    }
+    .nav{
+    
+        background-color: darkorchid;
+        background-image: none;
+        margin: 0;
+    }
+    
+   
+}
